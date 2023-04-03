@@ -14,9 +14,11 @@ const operacionesAsync = async() => {
 
     let contenido = await fs.promises.readFile(filename, 'utf-8')
     console.log(contenido)
-
+    
     await fs.promises.appendFile(filename, '\nOtros saludos.')
-
+    contenido = await fs.promises.readFile(filename, 'utf-8')
+    console.log(contenido)
+    
     await fs.promises.unlink(filename)
 }
 

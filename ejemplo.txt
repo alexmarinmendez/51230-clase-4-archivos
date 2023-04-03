@@ -1,1 +1,13 @@
-Buenas noches
+{
+	"name": "Alex",
+	"lastname": "Marin",
+	"age": 45
+}{
+	"name": "Shakira",
+	"lastname": "",
+	"age": 44
+}{
+	"name": "Piqué",
+	"lastname": "",
+	"age": 35
+}
